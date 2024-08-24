@@ -11,6 +11,3 @@ ASM learn:
 ASM Projects:
 -------------
 
-
-ASM Template:
--------------

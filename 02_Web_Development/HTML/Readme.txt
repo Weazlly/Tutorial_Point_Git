@@ -12,5 +12,3 @@ HTML Projects:
 ---------------
 
 
-HMTL Template:
----------------

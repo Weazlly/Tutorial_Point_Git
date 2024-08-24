@@ -11,5 +11,3 @@ Xamarian learn:
 Xamarian Projects:
 ------------------
 
-Xamarian Template:
--------------------

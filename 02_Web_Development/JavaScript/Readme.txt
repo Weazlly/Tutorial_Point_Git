@@ -12,5 +12,3 @@ JS Projects:
 -------------
 
 
-JS Template:
--------------

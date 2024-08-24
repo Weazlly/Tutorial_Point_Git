@@ -12,5 +12,3 @@ Pascal Projects:
 ----------------
 
 
-Pascal Template:
-----------------

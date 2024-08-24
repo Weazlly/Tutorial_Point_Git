@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\walde\\Documents\\Projekte\\Software_Projekte\\Tutorial_Point_Git\\02_Hardware_Software\\C\u002B\u002B\\01_Tutorial\\Data_Types\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{692E7CD5-E394-41D4-944B-526F3CAF2DC8}|Data_Types.vcxproj|C:\\Users\\walde\\Documents\\Projekte\\Software_Projekte\\Tutorial_Point_Git\\02_Hardware_Software\\C\u002B\u002B\\01_Tutorial\\Data_Types\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{692E7CD5-E394-41D4-944B-526F3CAF2DC8}|Data_Types.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\walde\\Documents\\Projekte\\Software_Projekte\\Tutorial_Point_Git\\02_Hardware_Software\\C\u002B\u002B\\01_Tutorial\\Data_Types\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\walde\\Documents\\Projekte\\Software_Projekte\\Tutorial_Point_Git\\02_Hardware_Software\\C\u002B\u002B\\01_Tutorial\\Data_Types\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-24T13:44:01.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

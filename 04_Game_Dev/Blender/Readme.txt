@@ -12,6 +12,4 @@ Blender Projects:
 -----------------
 
 
-Blender Template:
------------------
 

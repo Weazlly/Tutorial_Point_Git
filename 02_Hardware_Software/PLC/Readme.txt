@@ -17,5 +17,3 @@ PLC Simulation:
 ---------------
 
 
-PLC Template:
---------------
