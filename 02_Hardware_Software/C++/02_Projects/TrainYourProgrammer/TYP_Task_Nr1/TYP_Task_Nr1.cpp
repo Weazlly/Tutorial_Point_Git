@@ -17,17 +17,15 @@
 
 using namespace std; //using name area std
 
-char ch_charakter;
-int n_dec;
-int n_hex;
+char ch_charakter; //create a global variable charakter
 
 int main() //start the main programm
 {
-    cout << "Press one key and you see the decimal and hex Value of the char" << endl << endl;
-    cin >> ch_charakter;
-    cout << n_dec;
-
-
+    cout << "Press one key and you see the decimal and hex Value of the char" << endl << endl; //Request for input
+    cin >> ch_charakter; // Input
+    printf("Decimal:     %d\n", ch_charakter);   //print decimal
+    printf("Hexadecimal: 0x%X\n", ch_charakter); //print hexdecimal
+ 
     system("Pause");       //Pause the console
     return 0;              //return value for end of programm without problems
 }
