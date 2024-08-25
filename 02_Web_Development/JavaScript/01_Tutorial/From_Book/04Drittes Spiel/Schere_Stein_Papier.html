@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Drittes Spiel </title>
+		<meta charset="UTF-8">
+	</head>
+	
+	
+	<body>
+		<h1>Drittes Spiel: Schere, Stein, Papier</h1>
+		
+		
+		<script> 
+			var com =0, human=0, comWin=0, humanWin=0;
+			
+			while (comWin != 3 && humanWin != 3)
+			{
+				com = Math.random() * 3;
+				com = Math.round(com + 0.5);
+				
+				human = prompt("Stein = 1, Schere = 2, Papier = 3", "Zahleingabe");
+				
+				if(com == 1) //Stein für Computer
+				{
+					if(human == 3)
+					{
+						 comWin++; //Schere für Mensch
+						 alert("Computer gewinnt mit Stein");
+					}
+					else if(human == 2) 
+					{
+						humanWin++;//Papier für Mensch
+						alert("Spieler gewinnt mit Papier");
+					}
+				}
+				else if(com == 2) //Schere für Computer
+				{
+					if(human == 3) 
+					{
+						comWin++; //Papier für Mensch
+						alert("Computer gewinnt mit Schere");
+					}
+					else if(human == 1)
+					{
+						humanWin++;//Stein für Mensch
+						alert("Spieler gewinnt mit Stein");
+					}
+				}
+				else
+				{
+					if(human == 1) 
+					{
+						comWin++; //Papier für Mensch
+						alert("Computer gewinnt mit Papier");
+					}
+					else if(human == 2) 
+					{
+						humanWin++; //Schere für Mensch
+						alert("Spieler gewinnt mit Papier");
+					}
+				}				
+			}
+			if (comWin == 3) alert("Computer gewinnt");
+			else alert ("Spieler gewinnt");			
+		</script>	
+	</body>
+	
+</html>
+	

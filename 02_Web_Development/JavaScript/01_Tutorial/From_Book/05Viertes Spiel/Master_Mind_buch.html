@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Viertes Spiel </title>
+		<meta charset="UTF-8">
+	</head>
+	
+	
+	<body>
+		<h1>Viertes Spiel: Mastermind</h1>
+		
+		<script>
+		var zahl1 = Math.round(Math.random() * 9 +0.5);
+		var zahl2 = Math.round(Math.random() * 9 +0.5);
+		var zahl3 = Math.round(Math.random() * 9 +0.5);
+		
+		do{
+			var meinVersuch = prompt("Gib einen Tipp ab", "Zahl von 111 bis 999");
+			var tipp1 = meinVersuch.charAt(0);
+			var tipp2 = meinVersuch.charAt(1);
+			var tipp3 = meinVersuch.charAt(2);
+			
+			var richtigeStelle = 0;
+			var richtigeZahl = 0;
+			
+			if(tipp1 == zahl1) richtigeStelle++;
+			else if(tipp1 == zahl2 || tipp1 == zahl3) richtigeZahl++;
+			
+			if(tipp2 == zahl2) richtigeStelle++;
+			else if(tipp2 == zahl1 || tipp2 == zahl3) richtigeZahl++;
+			
+			if(tipp3 == zahl3) richtigeStelle++;
+			else if(tipp3 == zahl1 || tipp3 == zahl1) richtigeZahl++;
+			
+			alert(richtigeStelle + " Zahlen an der richtigen Stelle, " + richtigeZahl + " Zahlen kommen im Code vor");
+		}while(richtigeStelle < 3)
+		alert("Du hast gewonnen, Super!");
+		</script>	
+	</body>
+	
+</html>
+	

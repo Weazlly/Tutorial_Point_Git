@@ -1,0 +1,4 @@
+S1	E  124.0	BOOL	Lichtschranke, Schlieﬂer
+S2	E  124.1	BOOL	Lichtschranke, Schlieﬂer
+H1	A  124.0	BOOL	Lampe, zeigt Bewegung der Kiste von links nach rechts
+H2	A  125.0	BOOL	Lampe, zeigt Bewegung der Kiste von rechts nach links

@@ -1,0 +1,5 @@
+MOTOR	A  124.0	BOOL	1=Motor läuft, 0=Motor steht
+LÜFTER	A  124.1	BOOL	1=Lüfter läuft, 0=Lüfter steht
+START	E  124.0	BOOL	Taster, Schließer
+STOP	E  124.1	BOOL	Taster, Öffner
+NOT_AUS	E  124.2	BOOL	Schalter, Öffner

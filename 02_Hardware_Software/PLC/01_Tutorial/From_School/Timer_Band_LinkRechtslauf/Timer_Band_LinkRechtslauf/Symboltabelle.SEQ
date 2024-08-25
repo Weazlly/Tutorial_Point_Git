@@ -1,0 +1,10 @@
+S0	E    0.0	BOOL	Taster, Öffner, Band aus
+S1	E    0.1	BOOL	Taster, Schließer, "Rechts"
+S2	E    0.2	BOOL	Taster, Schließer, "Links"
+F2	E    0.7	BOOL	Öffner, Temperatursicherung Motor
+Q1	A    0.0	BOOL	Motorschütz "Rechtslauf"
+Q2	A    0.1	BOOL	Motorschütz "Linkslauf"
+H1	A    0.7	BOOL	Leuchte "Verzögerung"
+Verzögerung	M   20.0	BOOL	
+Links	M   20.1	BOOL	
+Rechts	M   20.2	BOOL	

@@ -1,0 +1,10 @@
+Schutzgitter	E  124.0	BOOL	Gitter zu = 1
+Trittmatte	E  124.1	BOOL	Person auf Trittmatte = 0
+Lichtgitter	E  124.2	BOOL	Hand o.ä. im Gefahrenbereich = 0
+NOT-AUS	E  124.3	BOOL	Schalter; Öffner
+Quittieren	E  124.4	BOOL	Taster; Schließer
+EIN	E  125.0	BOOL	Taster; Schließer
+AUS	E  125.1	BOOL	Taster; Öffner
+Motor_Rechts	A  125.0	BOOL	
+GEFAHR	M    0.0	BOOL	Sammelmerker für Sicherheitseinrichtungen
+P1	A  125.2	BOOL	

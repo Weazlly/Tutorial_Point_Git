@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Viertes Spiel </title>
+		<meta charset="UTF-8">
+	</head>
+	
+	
+	<body>
+		<h1>Viertes Spiel: Mastermind</h1>
+		<br>
+		Errate den 3-Stelligen Code. Jede Stelle kann der Wert zwischen 1 bis 9 liegen.
+		<hr>
+		<br>		
+		<script> 
+		var code1= 0, code2= 0, code3= 0;
+		var try1= 0, try2= 0, try3= 0;
+		
+		//Zufallszahl generieren
+		code1= Math.random() *9;
+		code1= Math.round(code1 +0.5);
+		code2= Math.random() *9;
+		code2= Math.round(code2 +0.5);
+		while (code2 == code1) 
+		{
+			code2= Math.random() *9;
+			code2= Math.round(code2 +0.5);
+		}
+		
+		code3= Math.random() *9;
+		code3= Math.round(code3 +0.5);	
+		while (code3 == code2 || code3 == code1)
+		{
+			code3= Math.random() *9;
+			code3= Math.round(code3 +0.5);	
+		}
+
+
+		alert(code1);
+		alert(code2);
+		alert(code3);
+		//Hauptschleife
+		while((code1 != try1) || (code2 != try2) || (code3 != try3) )
+		{
+			//Lese Eingabe ein
+			try1= prompt("Code-Stelle 1", "Zahlenwert 1-9");
+			try2= prompt("Code-Stelle 2", "Zahlenwert 1-9");
+			try3= prompt("Code-Stelle 3", "Zahlenwert 1-9");
+			
+			//Ermittle Stelle 1
+			if(code1 == try1) 		alert("Zahl und Stelle 1 ist richtig. " + try1); 					//Zahl und Stelle richtig			
+			else if(code1 == try2) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try1); 	//Zahl richtig und Stelle falsch
+			else if(code1 == try3) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try1); 	//Zahl richtig und Stelle falsch
+			else 					alert("Falsch. "+ try1); 											//Alles Falsch für Stelle 1
+			
+			//Ermittle Stelle 2
+			if(code2 == try2) 		alert("Zahl und Stelle 2 ist richtig. " + try2);					//Zahl und Stelle richtig
+			else if(code2 == try1) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try2); 	//Zahl richtig und Stelle falsch
+			else if(code2 == try3) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try2); 	//Zahl richtig und Stelle falsch
+			else 					alert("Falsch. "+ try2); 											//Alles Falsch für Stelle 2
+			
+			
+			//Ermittle Stelle 3
+			if(code3 == try3) 		alert("Zahl und Stelle 3 ist richtig. " + try3); 					//Zahl und Stelle richtig			
+			else if(code3 == try1) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try3); 	//Zahl richtig und Stelle falsch
+			else if(code3 == try2) 	alert("Zahl ist richtig, aber an der falschen Stelle. " + try3); 	//Zahl richtig und Stelle falsch
+			else 					alert("Falsch. "+ try3); 											//Alles Falsch für Stelle 3
+			
+		}
+		
+		document.write("Du hast den Code " + try1 + "-" + try2 + "-" + try3 + " erraten");
+		</script>	
+	</body>
+	
+</html>
+	

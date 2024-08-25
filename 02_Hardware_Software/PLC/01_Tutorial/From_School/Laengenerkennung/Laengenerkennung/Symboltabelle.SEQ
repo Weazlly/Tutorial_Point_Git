@@ -1,0 +1,5 @@
+S0	E  124.0	BOOL	NOT_AUS, Öffner, Schalter
+S1	E  124.1	BOOL	Lichtschranke, Schließer
+S2	E  124.2	BOOL	Lichtschranke, Schließer
+H1	A  124.0	BOOL	Grüne Lampe und zugleich Linkslauf an Band 2
+H2	A  125.0	BOOL	Rote Lampe und zugleich Rechtslauf an Band 2

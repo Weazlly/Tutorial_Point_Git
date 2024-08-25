@@ -1,0 +1,11 @@
+[PrjV2]
+Kennung=WS7V2
+iAktivesUnterprojekt=0
+bSimulatorAktiv=1
+ExternWeg=0
+LetzteAenderungTicks=1639289896
+LetzteAenderungDatum=08.09.2021
+LetzteAenderungUhrzeit=09:57:58
+WinPLC7-Version=V6.05
+[UPrj]
+P0=TIMER_BAND_LINKRECHTSLAUF\TIMER_BAND_LINKRECHTSLAUF.PRJ

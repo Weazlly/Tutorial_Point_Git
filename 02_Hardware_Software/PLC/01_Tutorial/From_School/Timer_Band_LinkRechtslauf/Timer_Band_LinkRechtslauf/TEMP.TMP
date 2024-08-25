@@ -1,0 +1,116 @@
+//{{V2}}
+ORGANIZATION_BLOCK OB1
+TITLE= "Zyklisches Hauptprogramm"
+
+
+AUTHOR:nb
+FAMILY:nb
+NAME:nb
+VERSION:1.0
+
+
+VAR_TEMP
+       OB1_EV_CLASS:BYTE //Bits 0-3 = 1 (Coming event), Bits 4-7 = 1 (Event class 1)
+       OB1_SCAN_1:BYTE //1 (Cold restart scan 1 of OB 1), 3 (Scan 2-n of OB 1)
+       OB1_PRIORITY:BYTE //1 (Priority of 1 is lowest)
+       OB1_OB_NUMBR:BYTE //1 (Organization block 1, OB1)
+       OB1_RESERVED_1:BYTE //Reserved for system
+       OB1_RESERVED_2:BYTE //Reserved for system
+       OB1_PREV_CYCLE:INT //Cycle time of previous OB1 scan (milliseconds)
+       OB1_MIN_CYCLE:INT //Minimum cycle time of OB1 (milliseconds)
+       OB1_MAX_CYCLE:INT //Maximum cycle time of OB1 (milliseconds)
+       OB1_DATE_TIME:DATE_AND_TIME //Date and time OB1 started
+END_VAR
+BEGIN
+
+NETWORK
+TITLE=Linkslauf
+//{{k}}
+
+       U(
+       O    E0.2  
+       O    M20.1  
+       )  
+       UN   A0.0  
+       U    E         0.7  
+       U    E         0.0  
+       UN   M        20.0  
+       S    A         0.1  
+       U(  
+       ON   E         0.7  
+       O    A         0.0  
+       ON   E         0.0  
+       O    A         0.7  
+       )  
+       R    A0.1
+NETWORK
+TITLE=Rechtslauf
+//{{k}}
+
+       U(   
+       O    E0.1
+       O    M        20.2
+       )    
+       UN   A         0.1
+       U    E         0.7
+       U    E         0.0
+       UN   M        20.0
+       S    A         0.0
+       U(   
+       ON   E         0.7
+       O    A         0.1
+       ON   E         0.0
+       O    A         0.7
+       )    
+       R    A         0.0
+NETWORK
+TITLE=Trigger Verzögerung
+//{{k}}
+
+       ON   E0.0
+       ON   E0.7
+       O    
+       U(   
+       U    E0.1
+       U    A         0.1
+       O    
+       U    E0.2
+       U    A         0.0
+       )    
+       S    M20.0
+NETWORK
+TITLE=Verzögerung
+//{{k}}
+
+       U    M20.0
+       L    S5T#5S
+       SA   T20
+       NOP  0
+       NOP  0
+       NOP  0
+       U    T20
+       R    M        20.0
+       =    A         0.7
+NETWORK
+TITLE=Nachschaltung
+//{{k}}
+
+       U    E0.1
+       L    S5T#5S2MS
+       SS   T21
+       U    A         0.0
+       R    T21
+       NOP  0
+       NOP  0
+       U    T21
+       =    M        20.2
+       U    E         0.2
+       L    S5T#5S2MS
+       SS   T22
+       U    A         0.1
+       R    T22
+       NOP  0
+       NOP  0
+       U    T22
+       =    M20.1
+END_ORGANIZATION_BLOCK

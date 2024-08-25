@@ -1,0 +1,6 @@
+S1	E  124.1	BOOL	Schlieﬂer / Paket Anfang Band
+S2	E  124.2	BOOL	Schlieﬂer / Paket vor Tor
+S3	E  124.3	BOOL	Schlieﬂer / Paket nach Tor
+S4	E  124.4	BOOL	Schlieﬂer / Paket Ende Band
+Band	A  124.0	BOOL	1=Band l‰uft, 0=Band steht
+TOR	A  124.2	BOOL	1=Tor hoch, 0=Tor runter 

@@ -1,0 +1,21 @@
+1M2	A    0.0	BOOL	1=Zylinder einfahren; Ofentür öffnen
+1M1	A    0.1	BOOL	1=Zylinder ausfahren; Ofentür schließen
+H1	A    0.2	BOOL	Lampe
+2M2	A    0.3	BOOL	1=Greifer ausfahren (Werkstück reinlegen in den Ofen); 0=Stillstand
+2M1	A    0.4	BOOL	1=Greifer einfahren (Werkstück rausholen aus dem Ofen); 0=Stillstand
+Magnet	A    1.0	BOOL	1= Elektromagnet ein, 0= Elektromagnet aus
+S0	E    0.0	BOOL	Lichtschranke, Schalter, Öffner
+S1	E    0.1	BOOL	Taster, Schließer
+S3	E    0.2	BOOL	Taster, Schließer
+S2	E    0.3	BOOL	Taster, Öffner
+S4	E    0.4	BOOL	Tür offen = 0
+S5	E    0.5	BOOL	Tür zu = 0
+S6	E    0.6	BOOL	NOT_AUS-Schalter, Öffner
+S7	E    1.0	BOOL	Taster, Schließer  (Greifer in den Ofen fahren)
+S8	E    1.1	BOOL	Taster, Schließer (Greifer aus dem Ofen fahren)
+S9	E    1.2	BOOL	Taster, Schließer (Magnet einschalten)
+S10	E    1.3	BOOL	Taster, Schließer (Magnet ausschalten)
+S11	E    1.4	BOOL	Greifer vordere Endlage = 1
+S12	E    1.5	BOOL	Greifer hintere Endlage = 1
+Sperre_Tür	M   20.0	BOOL	Sammelmerker zum Anhalten der Tür
+Sperre_Greifer	M   20.1	BOOL	Sammelmerker zum Anhalten des Greifers

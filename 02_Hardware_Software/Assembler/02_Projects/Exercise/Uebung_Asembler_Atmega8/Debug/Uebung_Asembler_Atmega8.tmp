@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATmega8"</DEVICE>
+ <WORKING_DIR>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m8def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Debug/Uebung_Asembler_Atmega8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Uebung_Asembler_Atmega8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Uebung_Asembler_Atmega8.map</FILE>
+  <FILE>Uebung_Asembler_Atmega8.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Start><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>12</LINE></Start>
+  <LEDon><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>28</LINE></LEDon>
+  <Ablauf1><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>23</LINE></Ablauf1>
+  <Ablauf2><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>38</LINE></Ablauf2>
+  <LEDoff><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>43</LINE></LEDoff>
+  <Zuruck><FILE>Z:\Uebungen\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8\Uebung_Asembler_Atmega8_Timer.asm</FILE><LINE>53</LINE></Zuruck>
+ </LABELS>
+</ASSEMBLER_INFO>

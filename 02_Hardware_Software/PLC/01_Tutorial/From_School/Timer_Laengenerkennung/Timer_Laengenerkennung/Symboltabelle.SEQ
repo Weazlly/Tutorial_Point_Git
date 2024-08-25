@@ -1,0 +1,5 @@
+H1	A  124.0	BOOL	zeigt lange Teile an, Band 2 l‰uft links
+H2	A  125.0	BOOL	zeigt kurze Teile an, Band 2 l‰uft rechts
+S1	E  124.1	BOOL	Schlieﬂer, Lichtschranke
+S0	E  124.0	BOOL	NOT_AUS, ÷ffner, Schalter
+MotorAus	M   20.0	BOOL	

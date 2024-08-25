@@ -1,0 +1,10 @@
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\bin\Debug\Mitternachtsformel.exe.config
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\bin\Debug\Mitternachtsformel.exe
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\bin\Debug\Mitternachtsformel.pdb
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.csproj.AssemblyReference.cache
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.frmMitternachtsformel.resources
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.Properties.Resources.resources
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.csproj.GenerateResource.cache
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.csproj.CoreCompileInputs.cache
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.exe
+C:\Users\Waldemar\source\repos\Mitternachtsformel\Mitternachtsformel\obj\Debug\Mitternachtsformel.pdb

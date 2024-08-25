@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Erstes Spiel </title>
+		<meta charset="UTF-8">
+	</head>
+	
+	
+	<body>
+		<h1>Erstes Spiel: Wurfspiel</h1>
+		
+		Unser Bogenschütze verteidigt die Mauern von Amular vor Monstern.<br>
+		Die Monster spawnen in unterschiedlichen Abständen zur Maurer.<br>
+		Der Bogenschütze hat 3 Schüsse pro Monster frei.<br>
+		<hr>
+		<script> 
+			var g = 9.81, v0, derWinkel, wurfWeite, i;
+			var entfernungZumMonster = Math.random() *90 +10;
+			entfernungZumMonster = Math.round(entfernungZumMonster);
+			alert(entfernungZumMonster);
+			
+			for (i=0; i<3; i++) //3 mal wiederholen
+			{
+				v0 = prompt("Gib die Anfangsgeschwindigkeit ein", "V0");
+				derWinkel = prompt("Gib den Wurfwinkel ein", "Winkel");
+				derWinkel = derWinkel * (Math.PI /180);
+				
+				wurfWeite = ((v0 * v0) * Math.sin(2 * derWinkel)) / g;
+				wurfWeite = Math.round(wurfWeite);
+				
+				alert(wurfWeite);
+				if (wurfWeite == entfernungZumMonster) alert ("Getroffen");
+				else if (wurfWeite < entfernungZumMonster) alert ("Zu Kurz geschossen");
+				else alert("Zu Weit geschossen");
+			}
+			
+		</script>	
+	</body>
+	
+</html>
+	

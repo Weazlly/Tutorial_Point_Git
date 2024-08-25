@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Zweites Spiel </title>
+		<meta charset="UTF-8">
+	</head>
+	
+	
+	<body>
+		<h1>Zweites Spiel: Zahlen raten</h1>
+		
+		
+		<script> 
+			
+			var zufall = Math.random() *90 +10; //Zufallzahl bis 100 positiv
+			zufall = Math.round(zufall);
+			var eingabe = 0, count=0;
+			
+			eingabe = prompt("Errate die Zahl", "Eingabe");
+			while (zufall != eingabe)
+			{
+				if(eingabe < zufall) alert("Zahl muss größer");
+				else alert ("Zahl muss kleiner");
+				count++;
+				eingabe = prompt("Errate die Zahl", "Eingabe");
+			}
+			alert("Du hast die Zahl " + eingabe + " erraten." + " Du hast " + count + " Versuche gebraucht");
+			
+		</script>	
+	</body>
+	
+</html>
+	

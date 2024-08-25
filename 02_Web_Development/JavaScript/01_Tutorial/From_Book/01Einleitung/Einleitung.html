@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Hammurabi </title>
+		<meta charset="ISO-8859-1">
+	</head>
+	
+	<body>
+		<h1> Hammurabi</h1>
+		<br>
+		<h2>Die Simulation eines alten Königreiches</h2><br>
+		"Lange hat sich das Vergessen über das alte Reich gelegt, und die Erinnerungen sind nur noch ein Hauch<br>
+		im Wind.<br>
+		Weiser Herrscher Hammurabi, führe Dein Volk noch einmal zu seiner alten Größe!"<br>
+		<hr>
+		Hammurabi ist ein klassisches, textbasiertes Spiel, bei dem man über 25 Runden die Geschicke seines <br>
+		Landes über die Eingabe bestimmerter Werte steuert. Nicht alle Regeln sind bekannt: Man gebe jedem <br>
+		Bürger 20 Scheffel Korn und lasse 2 Scheffel Korn auf jedem Acker säen. Aber nur duch geschickten <br>
+		Handel mit Land kann man auch schlechte Zeiten überstehen. <br>	
+		<script> 
+			//var meter = prompt("Gib die Höhe ein.", "Höhe in Meter");
+			//alert(Math.sqrt(2*meter/9.81));
+			
+			var velocity_base = prompt("Gib die Anfangsgeschwindigkeit ein", "in m/s²");
+			var angle = (Math.PI/180) * prompt("Gib den Wurfwinkel ein", "in °");
+			var gravity = 9.81;
+			
+			alert(((velocity_base * velocity_base)*Math.sin(2*angle))/gravity);
+			
+		</script>	
+	</body>
+	
+</html>
+	

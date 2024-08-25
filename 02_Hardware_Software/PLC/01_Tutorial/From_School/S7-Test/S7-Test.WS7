@@ -1,0 +1,11 @@
+[PrjV2]
+Kennung=WS7V2
+iAktivesUnterprojekt=0
+bSimulatorAktiv=1
+ExternWeg=0
+LetzteAenderungTicks=1476439872
+LetzteAenderungDatum=06.09.2021
+LetzteAenderungUhrzeit=12:43:49
+WinPLC7-Version=V6.05
+[UPrj]
+P0=S7-TEST\S7-TEST.PRJ

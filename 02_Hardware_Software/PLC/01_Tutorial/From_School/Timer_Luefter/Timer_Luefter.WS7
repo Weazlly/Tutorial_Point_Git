@@ -1,0 +1,11 @@
+[PrjV2]
+Kennung=WS7V2
+iAktivesUnterprojekt=0
+bSimulatorAktiv=1
+ExternWeg=0
+LetzteAenderungTicks=1553296858
+LetzteAenderungDatum=07.09.2021
+LetzteAenderungUhrzeit=10:04:46
+WinPLC7-Version=V6.05
+[UPrj]
+P0=TIMER_LUEFTER\TIMER_LUEFTER.PRJ
