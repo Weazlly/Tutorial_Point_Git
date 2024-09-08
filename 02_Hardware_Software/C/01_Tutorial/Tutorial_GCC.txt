@@ -1,0 +1,21 @@
+1. Download the zip folder "gcc.7z"
+2. Unpackage the zip
+3. Copy the whole folder into your C folder
+4. Search and open in the Windows-System the "Environment Variable"
+5. Click the button "environment variables"
+6. In "environment variables" you click on path and then "change"
+7. Click new and choose the folder of the unpacked Zip folder
+8. To check if it works
+9. open cmd and write: gcc -v
+10. if you did everything right, than the console give you the version out
+
+To compile the c file:
+1. go with you explorer to the c-file and copy the path
+2. then open cmd and write: cd 
+3. insert your copied path and press enter
+4. then write in cmd: gcc helloworld.c
+5. then enter
+6. if the code is correct and you write correctly the cmd-command, than the console says nothing
+   But you see in the same folder, where is your c-file a new executable file
+7. with cmd you can choose with the arrow-keys your exe file and press enter
+8. than you see your programm
