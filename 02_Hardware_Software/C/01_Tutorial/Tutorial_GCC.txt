@@ -1,4 +1,6 @@
 1. Download the zip folder "gcc.7z"
+   https://winlibs.com     GCC 14.2.0
+
 2. Unpackage the zip
 3. Copy the whole folder into your C folder
 4. Search and open in the Windows-System the "Environment Variable"
