@@ -1,0 +1,33 @@
+
+index.html: ist die Startseite auf deutsch
+
+Verlinkung index.html auf:
+
+ - main_page_structure-en.html	-> Startseite auf englisch
+
+ - aktuelles-de.html		-> Nebenseite Aktuelles auf deutsch
+ - aktuelles-en.html		-> Nebenseite Aktuelles auf englisch
+
+ - was-ist-lasertag-de.html	-> Nebenseite was ist lasertag auf deutsch
+ - was-ist-lasertag-en.html	-> Nebenseite was ist lasertag auf englisch
+
+ - bilder-de.html		-> Nebenseite bilder auf deutsch
+ - bilder-en.html		-> Nebenseite bilder auf englisch
+
+ - preise-de.html		-> Nebenseite preise auf deutsch
+ - preise-en.html		-> Nebenseite preise auf englisch
+
+ - anfahrt-de.html		-> Nebenseite anfahrt auf deutsch
+ - anfahrt-en.html		-> Nebenseite anfahrt auf englisch
+
+ - termine-de.html		-> Nebenseite termine auf deutsch
+ - termine-en.html		-> Nebenseite termine auf englisch
+
+ - scorecards-de.html		-> Nebenseite scorecards auf deutsch
+ - scorecards-en.html		-> Nebenseite scorecards auf englisch
+
+ - rundgang-de.html		-> Nebenseite rundgang auf deutsch
+ - rundgang-en.html		-> Nebenseite rundgang auf englisch
+
+ - impressum-de.html		-> Nebenseite impressum auf deutsch
+ - impressum-en.html		-> Nebenseite impressum auf englisch 

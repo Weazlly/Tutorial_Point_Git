@@ -1,0 +1,711 @@
+/*
+
+Author: Waldemar Tschernow
+Date: 24.05.2020
+Projekt: Website Laserarena Weiden
+File: stylesheet : beinhaltet alle Text-Formatierungen
+
+*/
+
+/*///////////////////////////////////////////////////////////////*/ 
+
+/*Ganze html Einstellungen*/ 
+html 
+{
+	font-family: "Arial";
+}
+
+/*Einstellungen für HTML-"Körper" Allgemein*/ 
+body
+{
+	background-color: rgb(0,0,0);
+	font-family: Arial;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellungen für HTML-Boxen "Layout" Allgemein*/ 
+* {box-sizing: border-box;}
+
+body {margin: 0;}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the header */
+.language
+{
+  background-color: #000000;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-language 
+{
+  float: left;
+}
+
+/* Left column */
+.column-language.side
+{
+  text-align: left-side;
+  width: auto;
+  height: 10vw;
+  padding: 2vw;
+}
+
+/* Middle column */
+.column-language.middle
+{
+  text-align: left-side;
+  width: auto;
+  height: 7vw;
+  padding-top: 2vw;
+}
+
+/* Left column */
+.column-language-right.side
+{
+  text-align: right;
+  width: auto;
+  height: 10vw;
+  padding: 2vw;
+}
+
+
+/* Clear floats after the columns */
+.row-language:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the header  banner*/
+.header
+{
+  background-color: #000000;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-header 
+{
+  float: left-side;
+}
+
+/* Middle column */
+.column-header.middle
+{
+  text-align: center;
+  padding-bottom: 2vw;
+  width: auto;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-header:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the top navigation bar */
+.topnav 
+{
+  background-color: #000000;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  width: 100%;
+  height: auto;
+}
+
+/* Style the topnav links */
+.topnav a 
+{
+  color: #ffffff;
+  font-size: 1em;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the article */
+.article
+{
+  background-color: #000000;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-article 
+{
+  float: left;
+}
+
+/* Left column */
+.column-article.side
+{
+  text-align: left;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  width: 30%;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-article.middle
+{
+  text-align: left;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 7vw;
+  width: 65%;
+  height:auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-article:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+  height: 5em;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-article.side, .column-article.middle{width: 100%;}
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the counter bar */
+.counter
+{
+  background-color: #000000;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-counter
+{
+  float: left;
+}
+
+/* Left column */
+.column-counter.side
+{
+  text-align: left;
+  width: 45%;
+  height: auto;
+  padding-left: 7.5vw;
+  padding-right: 2vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-counter.middle
+{
+  text-align: right;
+  padding-left: 18vw;
+  width: auto;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-counter:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the contact bar */
+.contact
+{
+  background-color: #000000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: transparent;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-contact
+{
+  float: left;
+}
+
+/* Left column */
+.column-contact.side
+{
+  text-align: left;
+  padding-left: 7.5vw;
+  width: 50%;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-contact.middle
+{
+  text-align: right;
+  padding-top: 5vw;
+  padding-right: 2vw;
+  width: 25%;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Right column */
+.column-contact.right
+{
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding-top: 3vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-contact:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the cookies bar */
+.cookies
+{
+  background-color: #000000;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-cookies
+{
+  float: center;
+}
+
+/* Middle column */
+.column-cookies.middle
+{
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-cookies:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*Bilder Bereich*/ 
+/*Gallery Button/Bilder Sprache Allgemein*/ 
+div.gallery
+{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Sprache Auswahl*/ 
+div.gallery:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Allgemein*/ 
+div.gallery1
+{
+	float: left-side;
+	width: auto;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Auswahl*/ 
+div.gallery1:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Allgemein*/ 
+div.gallery2
+{
+	float: right-side;
+	width: auto;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Auswahl*/ 
+div.gallery2:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*Hintergrund-Bild Allgemein*/ 
+.background-pic
+{
+	background-image: url('space.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*Einstellung Bilder mit Index Rahmen*/ 
+#border-img1
+{
+   border: 0.2vw solid white;
+}
+
+#border-img2
+{
+   border: 0.2vw solid white;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*Bilder einzelne Einstellungen*/ 
+
+img.header{width: 90vw;}
+img.language{width: 8vw;}
+img.home{width: 8vw;}
+img.facebook{width: 10vw;}
+img.instagram{width: 10vw;}
+
+img.lasermaxx
+{
+	width: 15vw;
+	height: 10vw;
+}
+
+img.laserarena
+{
+	padding-top: 4vw;
+	width: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*Button Varianten*/ 
+
+/*Green Buttons*/ 
+input.button 
+{
+  width: 100%;
+  height: auto;
+  padding: 1vw;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*Cookie Buttons*/ 
+
+input.cookies
+{
+  width: 30%;
+  height: auto;
+  padding: 1vw;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.imgbox 
+{
+  float: center;
+  text-align: center;
+  width: 100%;
+  padding: 6px;
+}
+
+button {width: auto;}
+
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*Text und Link Bereich*/ 
+
+
+/*Einstellung Link "Klassen"*/ 
+a:link
+{
+   color: rgb(0,240,0);
+   text-decoration: underline;
+   font-family: Arial;
+   font-size: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung einzelne Überschriften Allgemein*/ 
+h1   
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 300%;
+}
+
+h2  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 250%;
+}
+
+h3  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 200%;
+}
+
+h4  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 150%;
+}
+
+h5  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+h6 
+{
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung einzele Paragraphen Allgemein*/ 
+p
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+/*Einstellung einzele Paragraphen "Index"*/ 
+#p01
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+/*Cookie Button*/ 
+#p02
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+/*Hitcounter*/ 
+#p03
+{
+   width: 200%;
+   text-align: center;
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+   border: 0.2vw solid;
+   padding-top: 0.5vw;
+   border-top-color: rgb(0.240,0);
+   border-left-color: rgb(0.240,0);
+   border-right-color: rgb(0.240,0);
+   border-bottom-color: transparent;
+}
+
+
+#p04
+{
+   width: 200%;
+   text-align: center;
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+   border: 0.2vw solid;
+   border-top-color: transparent;
+   border-left-color: rgb(0.240,0);
+   border-right-color: rgb(0.240,0);
+   border-bottom-color: transparent;
+}
+
+#p05
+{
+   width: 200%;
+   text-align: center;
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+   border: 0.2vw solid;
+   border-top-color: transparent;
+   border-left-color: rgb(0.240,0);
+   border-right-color: rgb(0.240,0);
+   border-bottom-color: transparent;
+}
+
+#p06
+{
+   width: 200%;
+   text-align: center;
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+   border: 0.2vw solid;
+   border-top-color: transparent;
+   border-left-color: rgb(0.240,0);
+   border-right-color: rgb(0.240,0);
+   border-bottom-color: transparent;
+}
+
+#p07
+{
+   width: 200%;
+   text-align: center;
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+   border: 0.2vw solid;
+   padding-bottom: 0.5vw;
+   border-top-color: transparent;
+   border-left-color: rgb(0.240,0);
+   border-right-color: rgb(0.240,0);
+   border-bottom-color: rgb(0.240,0);
+}
+
+#p01footer
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+#p02footer
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;	
+}
+
+/*Einstellung einzele Paragraphen "Klassen"*/ 
+p.linesize1
+{
+   color: rgb(0,0,240);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+p.linesize2
+{
+   color: rgb(0,0,0);
+   background-color: rgb(220,220,220);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung für den Lauftext*/
+.scroll-left {
+ height: 4vw;	
+ overflow: hidden;
+ position: relative;
+}
+
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ text-align: center;
+ font-family: Arial;
+ font-size: 3vw;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 30s linear infinite;
+ -webkit-animation: scroll-left 30s linear infinite;
+ animation: scroll-left 30s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }

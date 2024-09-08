@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--- Set language --->
+<html lang="en_US">
+
+	<!--- Settings of main-page --->
+	<head> 
+		<title> Laserarena Weiden</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Laserarena Main Page">
+  		<meta name="keyboard" content="Lasertag, Weiden, Oberpfalz, Free Time, Arena">
+  		<meta name="author" content="Waldemar Tschernow">
+		<meta name="viewport" content="width=device-width", initial-scale="1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="main_page_design.css">
+		<script src="main_page_function.js"></script>
+		<link rel="icon" href="tab.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	<!--- HTML Structur: Main-Code --->
+	<body onload= "hitcounter()">
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="language">
+			<div class="row-language"> <!-- Language Flags German-->
+				<div class="column-language side">
+					<div class="gallery"> <a href="index.html"> <img class="language" id="border-img1" src="german.png" title="DE" alt="Deutsch"> </a> </div>
+				</div>
+				<div class="column-language middle"> <!-- Language Flags English-->
+					<div class="gallery"> <a href="http://www.laserarena-weiden.de/main_page_structure-en.html"> <img class="language" id="border-img1" src="US.png" title="EN" alt="English"> </a> </div>
+				</div>
+				<div class="column-language-right side">
+					<div class="gallery2"> <a href="http://www.laserarena-weiden.de/main_page_structure-en.html"> <img class="home" id="border-img2" src="home.png" title="Home" alt="home-icon"> </a> </div>
+				</div>
+			</div>
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="header">  <!-- Top "Banner" -->
+			<div class="row-header"> <!-- Banner-->
+				<div class="column-header middle">
+					<a href="http://www.laserarena-weiden.de/main_page_structure-en.html"> <img class="header" src="laserarena_title_alien.jpg" title="Back to Main-Page" alt="Picture Banner"> </a>
+				</div>
+			</div>			
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////  Scrolltext-->
+		<div class="topnav"> <!-- Scrolling Text -->
+			<div class="scroll-left"> 
+				<p>Celebrate with us 10th year anniversary. More info under News</p> 
+			</div>
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="article">
+			<div class="background-pic" >
+				<div class="row-article">
+					<div class="column-article side">
+						<a href="01-aktuelles/aktuelles-en.htm"> <input class="button" type="image" src="green-button-aktuelles-en.png" title="news" alt="green-button-news">											<!-- button link: aktuelles 		-->
+						<a href="10-corona/corona-en.htm"> <input class="button" type="image" src="green-button-corona-en.png" title="corona regeln" alt="green-button-corona-regeln">	</a>							<!-- button link: aktuelles 		-->
+						<a href="02-was-ist-lasertag/was-ist-lasertag-en.htm"> <input class="button" type="image" src="green-button-was-ist-lasertag-en.png" title="What is Lasertag?" alt="green-button-what-is-lasertag"> </a>	<!-- button link: what is lasertag -->
+						<a href="03-bilder/bilder-en.htm"> <input class="button" type="image" src="green-button-bilder-en.png" title="Pictures" alt="green-button-pictures"> </a>														<!-- button link: picutres 			-->
+						<a href="04-preise/preise-en.htm"> <input class="button" type="image" src="green-button-preise-en.png" title="Prices" alt="green-button-prices"> </a>														<!-- button link: prices 			-->
+						<a href="05-anfahrt/anfahrt-en.htm"> <input class="button" type="image" src="green-button-anfahrt-en.png" title="Directions" alt="green-button-directions"> </a>													<!-- button link: drive in  		--> 
+						<a href="06-termine/termine-en.htm"> <input class="button" type="image" src="green-button-termine-en.png" title="Events" alt="green-button-events"> </a>													<!-- button link: termine  			-->
+						<a href="07-scorecards/scorecards-en.htm"> <input class="button" type="image" src="green-button-bald-erhaeltlich-en.png" title="Coming soon" alt="green-button-coming-soon"> </a>					<!-- button link: termine  			-->
+						<a href="08-rundgang/rundgang-en.htm"> <input class="button" type="image" src="green-button-rundgang-en.png" title="Arena Tour" alt="green-button-arena-tour"> </a>											<!-- button link: termine  			-->
+						<a href="09-impressum/impressum-en.htm"> <input class="button" type="image" src="green-button-impressum-en.png" title="About us" alt="green-button-about-us"> </a>										<!-- button link: impressum  		-->
+					</div>
+
+					<div class="column-article middle">
+						<img class="laserarena" src="10_Jahre.jpeg" title="Laserarena Weiden" alt="Arena tour" usemap="#360View">
+						<!--<map name="360View">
+							<area shape="rect" coords="92,355,180,520" title="Eingang" alt="Eingang" href="http://laser-arena-weiden.spitzen-tech.de/"> 
+						</map><br>-->
+					</div>
+				</div>
+				<div class="row-article"></div>
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="counter">
+			<div class="row-counter">
+				<div class="column-counter side">
+					<p id="p01"> Supported by LASERMAXX </p>
+					<a href="https://www.lasermaxx.com/en/home"> <img class="lasermaxx" title="lasermaxx" src="lasermaxx.png" alt="image: lasermaxx.png" style="padding-left: 5vw;"> </a>
+				</div>
+				<!--<div class="column-counter middle">
+					<p id="p03"> Besucher </p>					
+					<p id="p04"> Heute:  <span id="s01">000</span></p>
+					<p id="p05"> Gestern: <span id="s02">000</span></p>
+					<p id="p06"> Gesamt: <span id="s03">00000000</span></p>
+					<p id="p07"> Gerade Online: <span id="s04">000</span></p>
+				</div>-->
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="contact">
+			<div class="row-contact">
+				<div class="column-contact side">
+					<p id="p01"> Any questions?<br>
+					Contact us<br>
+					Tel.: 0961/40184191<br>
+					<a href="09-impressum/impressum-en.htm"> About us</a><br>
+					&copy; 2020 Laserarena Weiden </p> 
+				</div>
+				
+				<div class="column-contact middle">
+					<a href="https://www.facebook.com/Laserarena-Weiden-164039273777771" style="font-size:1.5vw;"> subscribes us </a>
+				</div>
+				
+				<div class="column-contact right">
+					<a href="https://www.facebook.com/Laserarena-Weiden-164039273777771" style="font-size:1.5vw;"> <img class="facebook" src="Facebook.png" title="Facebook" alt="Facebook Image"> </img> </a>
+				</div>
+			</div>
+			
+			<div class="row-contact">
+				<div class="column-contact side">
+
+				</div>
+				
+				<div class="column-contact middle">
+					<a href="https://www.instagram.com/laserarenaweiden/?hl=de"><p id="p02footer"> subscribe us </a>
+				</div>
+				
+				<div class="column-contact right">
+					<a href="https://www.instagram.com/laserarenaweiden/?hl=de"> <img class="instagram" src="instagram.png" title="Instagram" alt="Instagram Image"> </img> </a>
+				</div>
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="cookies">
+			<div class="row-cookies">
+				<div class="column-cookies middle" id="column-cookies middle">					
+					<div class="imgbox" id="imgbox1">
+						<p style="text-align:center"> This website uses cookies to ensure that you get the best possible use of our website. </p>
+						<input class="cookies" style="text-align:center" type="image" src="green-button-cookie-en.png" title="Cookie-Button" alt="green-button-cookie" onclick="removeElement()">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!--- 
+Author: Waldemar Tschernow
+Company: Laserarena Weiden
+Date: 24.05.2020
+Project: Website Laserarena
+Version: 1.0.0
+
+<!--- Was noch eingefügt werden muss --->
+<!--- https://www.otv.de/mediathek/video/lasertag-duell-oberpfalz-tv-vs-weidener-rebels/  --->
+
+<!-- 
+Changelog:
+Author:
+Company:
+Date:
+Version: 
+Reason:
+--->

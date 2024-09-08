@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////
+//
+// Author:		Waldemar Tschernow
+// Date:		08.09.2024
+// Description: Generate "Hello World" in the consol
+// Compiled:	gcc
+//
+/////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+int main()
+{
+	printf("Hello World");
+	return 0;
+}

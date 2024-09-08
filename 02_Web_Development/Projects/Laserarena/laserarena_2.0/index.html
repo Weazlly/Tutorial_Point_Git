@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--- Set language --->
+<html lang="de_DE">
+
+	<!--- Settings of main-page --->
+	<head> 
+		<title> Laserarena Weiden</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Laserarena Hauptseite">
+  		<meta name="keyboard" content="Lasertag, Weiden, Oberpfalz, Freizeit, Arena">
+  		<meta name="author" content="Waldemar Tschernow">
+		<meta name="viewport" content="width=device-width", initial-scale="1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="main_page_design.css">
+		<script src="main_page_function.js"></script>
+		<link rel="icon" href="tab.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+	</head>
+	
+	
+	<!--- HTML Structur: Main-Code --->
+	<body onload= "hitcounter()">
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="language">
+			<div class="row-language"> <!-- Language Flags German-->
+				<div class="column-language side">
+					<div class="gallery"> <a href="index.html"> <img class="language" id="border-img1" src="german.png" title="DE" alt="Deutsch"> </a> </div>
+				</div>
+				<div class="column-language middle"> <!-- Language Flags English-->
+					<div class="gallery"> <a href="main_page_structure-en.html"> <img class="language" id="border-img1" src="US.png" title="EN" alt="English"> </a> </div>
+				</div>
+				<div class="column-language-right side">
+					<div class="gallery2"> <a href="http://www.laserarena-weiden.de/"> <img class="home" id="border-img2" src="home.png" title="Home" alt="home-icon"> </a> </div>
+				</div>
+			</div>
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="header">  <!-- Top "Banner" -->
+			<div class="row-header"> <!-- Banner-->
+				<div class="column-header middle">
+					<a href="index.html"> <img class="header" src="laserarena_title_alien.jpg" title="Zurück zum Hauptmenü" alt="Picture Banner"> </a>
+				</div>
+			</div>			
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////  Scrolltext-->
+		<div class="topnav"> <!-- Scrolling Text -->
+			<div class="scroll-left"> 
+				<p>Feiere mit uns 10 Jahre Laserarena-Weiden. Mehr Infos unter "Aktuelles"</p>
+			</div>
+		</div>
+
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="article">
+			<div class="background-pic" >
+				<div class="row-article">
+					<div class="column-article side">
+						<a href="01-aktuelles/aktuelles-de.htm"> <input class="button" type="image" src="green-button-aktuelles-de.png" title="aktuelles" alt="green-button-aktuelles">	</a>							<!-- button link: aktuelles 		-->
+						<a href="10-corona/corona-de.htm"> <input class="button" type="image" src="green-button-corona-de.png" title="corona regeln" alt="green-button-corona-regeln">	</a>							<!-- button link: aktuelles 		-->
+						<a href="02-was-ist-lasertag/was-ist-lasertag-de.htm"> <input class="button" type="image" src="green-button-was-ist-lasertag-de.png" title="Was ist Lasertag?" alt="green-button-was-ist-lasertag"> </a>	<!-- button link: what is lasertag -->
+						<a href="03-bilder/bilder-de.htm"> <input class="button" type="image" src="green-button-bilder-de.png" title="Bilder" alt="green-button-bilder"> </a>														<!-- button link: picutres 			-->
+						<a href="04-preise/preise-de.htm"> <input class="button" type="image" src="green-button-preise-de.png" title="Preise" alt="green-button-preise"> </a>														<!-- button link: prices 			-->
+						<a href="05-anfahrt/anfahrt-de.htm"> <input class="button" type="image" src="green-button-anfahrt-de.png" title="Anfahrt" alt="green-button-anfahrt"> </a>													<!-- button link: drive in  		--> 
+						<a href="06-termine/termine-de.htm"> <input class="button" type="image" src="green-button-termine-de.png" title="Termine" alt="green-button-termine"> </a>													<!-- button link: termine  			-->
+						<a href="07-scorecards/scorecards-de.htm"> <input class="button" type="image" src="green-button-bald-erhaeltlich-de.png" title="Bald erhaeltlich" alt="green-button-bald-erhaeltlich"> </a>					<!-- button link: termine  			-->
+						<a href="08-rundgang/rundgang-de.htm"> <input class="button" type="image" src="green-button-rundgang-de.png" title="Rundgang" alt="green-button-rundgang"> </a>											<!-- button link: termine  			-->
+						<a href="09-impressum/impressum-de.htm"> <input class="button" type="image" src="green-button-impressum-de.png" title="Impressum" alt="green-button-impressum"> </a>										<!-- button link: impressum  		-->
+					</div>
+
+					<div class="column-article middle">
+						<img class="laserarena" src="10_Jahre.jpeg" title="Laserarena Weiden" alt="Rundgang" usemap="#360View">
+						<!--<map name="360View">
+							<area shape="rect" coords="92,355,180,520" title="Eingang" alt="Eingang" href="http://laser-arena-weiden.spitzen-tech.de/"> 
+						</map><br>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="counter">
+			<div class="row-counter">
+				<div class="column-counter side">
+					<p id="p01"> Unterst&uuml;tzt von LASERMAXX </p>
+					<a href="https://www.lasermaxx.com/de/home"> <img class="lasermaxx" title="lasermaxx" src="lasermaxx.png" alt="image: lasermaxx.png" style="padding-left: 5vw;"> </a>
+				</div>
+				<!--<div class="column-counter middle">
+					<p id="p03"> Besucher </p>					
+					<p id="p04"> Heute:  <span id="s01">000</span></p>
+					<p id="p05"> Gestern: <span id="s02">000</span></p>
+					<p id="p06"> Gesamt: <span id="s03">00000000</span></p>
+					<p id="p07"> Gerade Online: <span id="s04">000</span></p>
+				</div>-->
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="contact">
+			<div class="row-contact">
+				<div class="column-contact side">
+					<p id="p01footer"> Noch Fragen?<br>
+					Rufen Sie uns an:<br>
+					Tel.: 0961/40184191<br>
+					<a href="09-impressum/impressum-de.htm">Impressum</a><br>
+					&copy; 2020 Laserarena Weiden </p>
+				</div>
+				
+				<div class="column-contact middle">
+					<a href="https://www.facebook.com/Laserarena-Weiden-164039273777771"><p id="p02footer"> Abonniert uns auf </a>
+				</div>
+				
+				<div class="column-contact right">
+					<a href="https://www.facebook.com/Laserarena-Weiden-164039273777771"> <img class="facebook" src="Facebook.png" title="Facebook" alt="Facebook Image"> </img> </a>
+				</div>
+				
+			</div>
+			
+			<div class="row-contact">
+				<div class="column-contact side">
+
+				</div>
+				
+				<div class="column-contact middle">
+					<a href="https://www.instagram.com/laserarenaweiden/?hl=de"><p id="p02footer"> Abonniert uns auf </a>
+				</div>
+				
+				<div class="column-contact right">
+					<a href="https://www.instagram.com/laserarenaweiden/?hl=de"> <img class="instagram" src="instagram.png" title="Instagram" alt="Instagram Image"> </img> </a>
+				</div>
+			</div>
+		</div>
+		
+		<!--/////////////////////////////////////////////////////////////////-->
+		<div class="cookies">
+			<div class="row-cookies">
+				<div class="column-cookies middle" id="column-cookies middle">					
+					<div class="imgbox" id="imgbox1">
+						<p> Diese Website verwendet Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu gewährleisten. <input class="cookies" type="image" src="green-button-cookie-de.png" title="Cookie-Button" alt="green-button-cookie" onclick="removeElement()"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!--- 
+Author: Waldemar Tschernow
+Company: Laserarena Weiden
+Date: 24.05.2020
+Project: Website Laserarena
+Version: 1.0.0
+
+
+<!-- 
+Changelog:
+Author:
+Company:
+Date:
+Version: 
+Reason:
+--->

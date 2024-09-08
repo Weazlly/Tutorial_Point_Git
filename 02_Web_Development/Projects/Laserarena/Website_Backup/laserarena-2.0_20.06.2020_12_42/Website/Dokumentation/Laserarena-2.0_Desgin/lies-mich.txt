@@ -1,0 +1,19 @@
+
+Design-Dateien: Beinhalten die Sicherheitskopien der verwendeten Dateien
+
+Informationen-bei-der-Erstellung: Gesammeltes Wissen, wie man eine Website, 
+ohne Baukastensystem entwickelt bei diesem Projekt. 
+
+____________________________________________________________________________
+
+Verwendete Software:
+
+Struktur:
+  - Browser X-beliebig
+  - Datei-Management: fileZilla -> von lokalen Rechner auf Server laden per FTP
+  - Text-editor: Notepad++ 7.8.6 (32bit)
+
+Design (Bilder, Musik etc.)
+
+  - paint.net
+  -  

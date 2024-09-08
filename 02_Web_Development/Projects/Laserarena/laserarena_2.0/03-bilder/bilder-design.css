@@ -1,0 +1,648 @@
+/*
+
+Author: Waldemar Tschernow
+Date: 24.05.2020
+Projekt: Website Laserarena Weiden
+File: stylesheet : Beinhaltet alle Text-Formatierungen
+
+*/
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Ganze html Einstellungen*/ 
+html 
+{
+	font-family: "Arial";
+}
+
+/*Einstellungen für HTML-"Körper" Allgemein*/ 
+body
+{
+	background-color: rgb(0,0,0);
+	font-family: Arial;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellungen für HTML-Boxen "Layout" Allgemein*/ 
+* {box-sizing: border-box;}
+
+body {margin: 0;}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the header */
+.language
+{
+  background-color: #000000;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-language 
+{
+  float: left;
+}
+
+/* Left column */
+.column-language.side
+{
+  text-align: left-side;
+  width: auto;
+  height: 10vw;
+  padding: 1em;
+}
+
+/* Middle column */
+.column-language.middle
+{
+  text-align: left-side;
+  width: auto;
+  height: 7vw;
+  padding-top: 1em;
+}
+
+/* Left column */
+.column-language-right.side
+{
+  text-align: right;
+  width: auto;
+  height: 10vw;
+  padding: 1em;
+}
+
+
+/* Clear floats after the columns */
+.row-language:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the header */
+.header
+{
+  background-color: #000000;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-header 
+{
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row-header:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the header */
+.header2
+{
+  background-color: #000000;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-header2 
+{
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row-header2:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the top navigation bar */
+.topnav 
+{
+  padding-bottom: 1vw;
+  width: 100%;
+  height: 10vw;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  height: auto;
+  color: rgb(0,0,0);
+  width: 50%;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the top navigation bar */
+.topnav2
+{
+  padding-bottom: 1vw;
+  width: 100%;
+  height: 10vw;
+}
+
+/* Style the topnav links */
+.topnav2 a {
+  float: left;
+  display: block;
+  height: auto;
+  color: rgb(0,0,0);
+  width: 33%;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the top navigation bar */
+.topnav3
+{
+  padding-bottom: 1vw;
+  width: 100%;
+  height: 10vw;
+}
+
+/* Style the topnav links */
+.topnav3 a {
+  float: left;
+  display: block;
+  height: auto;
+  color: rgb(0,0,0);
+  width: 33%;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the top navigation bar */
+.topnav4
+{
+  padding-bottom: 1vw;
+  width: 100%;
+  height: 10vw;
+}
+
+/* Style the topnav links */
+.topnav4 a {
+  float: left;
+  display: block;
+  height: auto;
+  color: rgb(0,0,0);
+  width: 33%;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////*/
+/* Style the article */
+.article
+{
+  background-color: #000000;
+  padding-top: 1vw;
+  padding-bottom: 1em;
+  text-align: center;
+  border: 0.5vw solid;
+  border-bottom-color: rgb(0,240,0)
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-article 
+{
+  float: center;
+}
+
+/* Middle column */
+.column-article.middle
+{
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+  width: 100%;
+  height: 55vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-article2.middle
+{
+  text-align: center;
+  padding-top: 5vw;
+  width: 100%;
+  height: 55vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-article3.middle
+{
+  text-align: center;
+  padding-top: 5vw;
+  width: 100%;
+  height: 55vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-article4.middle
+{
+  text-align: center;
+  padding-top: 5vw;
+  width: 100%;
+  height: 55vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-article:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row-article2:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-article.side, .column-article.middle{width: 100%;}
+}
+
+/* Create three unequal columns that floats next to each other */
+.column-contact
+{
+  float: left;
+}
+
+/* Left column */
+.column-contact.side
+{
+  text-align: left;
+  padding-top: 2vw;
+  padding-left: 8.5vw;
+  width: 50%;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Middle column */
+.column-contact.middle
+{
+  text-align: right;
+  padding-top: 5vw;
+  padding-right: 2vw;
+  width: 25%;
+  height: auto;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Right column */
+.column-contact.right
+{
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  border: solid 1px;
+  border-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row-contact:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  color: white;
+  font-weight: bold;
+  font-size: 8vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*Bilder Bereich*/ 
+
+/*Gallery Button/Bilder Sprache Allgemein*/ 
+div.gallery
+{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Sprache Auswahl*/ 
+div.gallery:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Allgemein*/ 
+div.gallery1
+{
+	float: left-side;
+	width: auto;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Auswahl*/ 
+div.gallery1:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Allgemein*/ 
+div.gallery2
+{
+	float: right-side;
+	width: auto;
+	height: auto;
+}
+
+/*Gallery Button/Bilder Auswahl-Buttons Auswahl*/ 
+div.gallery2:hover
+{
+	border: 1px solid;
+	border-color: transparent;
+}
+
+/*Green Buttons*/ 
+input.button2 
+{
+  width: 100%;
+  height: auto;
+  padding: 2vw;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*Green Buttons*/ 
+input.button 
+{
+  width: 100%;
+  height: auto;
+  padding: 2vw;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/*Hintergrund-Bild Allgemein*/ 
+.background-pic
+{
+	background-image: url('space.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*Einstellung Bilder mit Index Rahmen*/ 
+
+#border-img1
+{
+   border: 2px solid white;
+}
+
+#border-img2
+{
+   border: 0.2vw solid white;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+/*Bilder einzelne Einstellungen*/ 
+
+img.header{width: 60.00%;}
+img.language{width: 8vw;}
+img.home{width: 8vw;}
+img.alien{width: 80%;}
+img.button{width: 80.00%;}
+img.laserarena{width: 98.00%;}
+img.facebook{width: 10vw;}
+img.instagram{width: 10vw;}
+img.slide
+{
+	width: auto;
+	height: 30vw;
+}
+
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*Text und Link Bereich*/ 
+
+
+/*Einstellung Link "Klassen"*/ 
+a:link
+{
+   color: rgb(0,240,0);
+   text-decoration: underline;
+   font-family: Arial;
+   font-size: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung einzelne Überschriften Allgemein*/ 
+h1   
+{
+   padding: 2vw;
+   background-color: rgb(25,25,25);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 7vw;
+}
+
+h2  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 250%;
+}
+
+h3  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 200%;
+}
+
+h4  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 150%;
+}
+
+h5  
+{
+   padding: 50px;
+   margin:  50px;
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+h6 
+{
+   background-color: rgb(75,75,75);
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung einzele Paragraphen Allgemein*/ 
+p
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 3vw;
+}
+
+/*Einstellung einzele Paragraphen "Index"*/ 
+#p01
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 2vw;
+}
+
+#p02
+{
+   color: rgb(240,0,0);
+   font-family: Arial;
+   font-size: 5vw;
+}
+
+#p01footer
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;
+}
+
+#p02footer
+{
+   color: rgb(0,240,0);
+   font-family: Arial;
+   font-size: 1.5vw;	
+}
+
+/*Einstellung einzele Paragraphen "Klassen"*/ 
+p.linesize1
+{
+   color: rgb(0,0,240);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+p.linesize2
+{
+   color: rgb(0,0,0);
+   background-color: rgb(220,220,220);
+   font-family: Arial;
+   font-size: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////*/ 
+/*Einstellung für den Lauftext*/
+.GeneratedMarquee 
+{
+	font-family:'Arial';
+	font-size:1.5em;
+
+	margin-top: 0.5em;
+	color: rgb(0,240,0);
+}
+
